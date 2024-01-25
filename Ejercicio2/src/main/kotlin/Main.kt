@@ -1,0 +1,21 @@
+fun main(args: Array<String>) {
+    val persona1 = Persona(78.6, 1.80 )
+    val persona2 = Persona("Antonio", 90.0, 1.69)
+    val persona3 = Persona("Lucía", 64.9, 1.70)
+    val persona4 = Persona("Luca", 77.35, 1.82)
+    val persona5 = Persona("Julio", 53.5, 1.75)
+    val persona6 = Persona("Ana", 51.0, 1.72)
+
+    println(persona1.saludar())
+    println(persona1.mostrarDesc())
+    println(persona2.saludar())
+    println(persona2.mostrarDesc())
+    println(persona3.saludar())
+    println(persona3.mostrarDesc())
+    println(persona4.saludar())
+    println(persona4.mostrarDesc())
+    println(persona5.saludar())
+    println(persona5.mostrarDesc())
+    println(persona6.saludar())
+    println(persona6.mostrarDesc())
+}
